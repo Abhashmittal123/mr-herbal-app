@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import QRCode from 'qrcode.react';
+import QRCode from 'react-qr-code';
+
+<QRCode value={JSON.stringify(batchData)} />
 
 function App() {
   const [batchData, setBatchData] = useState({
